@@ -1,105 +1,173 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="styles-second.css">
+</head>
+<body>
     <div class="container" id="resume">
-      <div>
-          <img src="./src/profile.png" alt="Фотография" class="profile-pic">
-      </div>
-      <div class="section name">
-              <p class="job-title" contenteditable="true">Hello 👋🏻 I’m</p>
-              <h1 class="name" contenteditable="true">Graham Hunt</h1>
-              <p class="job-title" contenteditable="true">Brand/Logo Designer</p>
-              <!-- <div class="contact-info">
-                  <p class="email" contenteditable="true">Ваша почта</p>
-                  <p class="phone" contenteditable="true">Ваш телефон</p>
-                  <p class="linkedin" contenteditable="true">Ваша ссылка на LinkedIn</p>
-              </div> -->
-      </div>
-      <div class="section skills">
-          <h2 class="section-title" contenteditable="true">Languages</h2>
-          <ul class="skills-list">
-              <li class="skill" contenteditable="true">English
-              </li>
-              <li class="skill" contenteditable="true">Spanish</li>
-              <li class="skill" contenteditable="true">French</li>
-          </ul>
-      </div>
+        <div>
+            <img src="./src/profile.png" alt="Фотография" class="profile-pic">
+        </div>
+        <div class="section name">
+                <p class="job-title" contenteditable="true">Hello 👋🏻 I’m</p>
+                <h1 class="name" contenteditable="true">Graham Hunt</h1>
+                <p class="job-title" contenteditable="true">Brand/Logo Designer</p>
+                <!-- <div class="contact-info">
+                    <p class="email" contenteditable="true">Ваша почта</p>
+                    <p class="phone" contenteditable="true">Ваш телефон</p>
+                    <p class="linkedin" contenteditable="true">Ваша ссылка на LinkedIn</p>
+                </div> -->
+        </div>
+        <div class="section skills">
+            <h2 class="section-title" contenteditable="true">Languages</h2>
+            <ul class="skills-list">
+                <li class="skill">
+                  <span class="skill-text" contenteditable="true">English</span>
+                  <svg class="skill-bar">
+                    <rect x="0" y="0" width="100%" height="11px" fill="#28D979"></rect>
+                  </svg>
+                </li>
+                <li class="skill">
+                  <span class="skill-text" contenteditable="true">Spanish</span>
+                  <svg class="skill-bar">
+                    <rect x="0" y="0" width="100%" height="11px" fill="#28D979"></rect>
+                  </svg>
+                </li>
+                <li class="skill">
+                  <span class="skill-text" contenteditable="true">French</span>
+                  <svg class="skill-bar">
+                    <rect x="0" y="0" width="100%" height="11px" fill="#28D979"></rect>
+                  </svg>
+                </li>
+              </ul>
+        </div>
 
-          <div class="section experience">
-              <h2 class="section-title" contenteditable="true">Опыт работы</h2>
-              <div class="experience-item">
-                  <h3 class="job-title" contenteditable="true">Название должности</h3>
-                  <p class="company" contenteditable="true">Название компании</p>
-                  <p class="dates" contenteditable="true">Даты работы</p>
-                  <ul class="responsibilities">
-                      <li class="responsibility" contenteditable="true">Обязанность 1</li>
-                      <li class="responsibility" contenteditable="true">Обязанность 2</li>
-                      <li class="responsibility" contenteditable="true">Обязанность 3</li>
-                  </ul>
-              </div>
-          </div>
+            <div class="section experience">
+                <h2 class="section-title" contenteditable="true">Опыт работы</h2>
+                <div class="experience_grid">
+                    <div class="experience-item">
+                        <p class="company" contenteditable="true">2024 <img src="./src/like.svg"></p>
+                        <div>
+                        <h3 class="job-title" contenteditable="true">UX/UI</h3>
+                        <p class="company" contenteditable="true">Название компании</p>
+                        <p class="dates" contenteditable="true">Даты работы</p>
+                        <ul class="responsibilities">
+                            <li class="responsibility" contenteditable="true">Обязанность 1</li>
+                            <li class="responsibility" contenteditable="true">Обязанность 2</li>
+                            <li class="responsibility" contenteditable="true">Обязанность 3</li>
+                        </ul>
+                        </div>
+                        <p class="company" contenteditable="true">Courseva</p>
+                    </div>
+                    <div class="experience-item">
+                        <p class="company" contenteditable="true">2024</p>
+                        <div>
+                        <h3 class="job-title" contenteditable="true">Product designer</h3>
+                        <p class="company" contenteditable="true">Название компании</p>
+                        <p class="dates" contenteditable="true">Даты работы</p>
+                        <ul class="responsibilities">
+                            <li class="responsibility" contenteditable="true">Обязанность 1</li>
+                            <li class="responsibility" contenteditable="true">Обязанность 2</li>
+                            <li class="responsibility" contenteditable="true">Обязанность 3</li>
+                        </ul>
+                        </div>
+                        <p class="company" contenteditable="true">Courseva</p>
+                    </div>
+                    <div class="experience-item">
+                        <p class="company" contenteditable="true">2024</p>
+                        <div>
+                        <h3 class="job-title" contenteditable="true">Graphic design</h3>
+                        <p class="company" contenteditable="true">Название компании</p>
+                        <p class="dates" contenteditable="true">Даты работы</p>
+                        <ul class="responsibilities">
+                            <li class="responsibility" contenteditable="true">Обязанность 1</li>
+                            <li class="responsibility" contenteditable="true">Обязанность 2</li>
+                            <li class="responsibility" contenteditable="true">Обязанность 3</li>
+                        </ul>
+                        </div>
+                        <p class="company" contenteditable="true">Courseva</p>
+                    </div>
+                </div>
+            </div>
 
-          <div class="section tools">
-              <h2 class="section-title" contenteditable="true">Tools</h2>
-              <div>
-                  <h3>Tools-1</h3>
-                  <div class="tool">
-                      <img src="src/tools/1/logoanalytics.svg">
-                      <img src="src/tools/1/logoCreativeCloud.svg">
-                      <img src="src/tools/1/logoFigma.svg">
-                      <img src="src/tools/1/logoMeet.svg">
-                      <img src="src/tools/1/logoMiro 1.svg">
-                      <img src="src/tools/1/logoNotion.svg">
-                  </div>
-              </div>
+            <div class="section interests">
+                <h2 class="section-title" contenteditable="true">Interests</h2>
+                <div class="interests_flex">
+                        <span>branding</span>
+                        <span>brand identify</span>
+                        <span>logo</span>
+                        <span>typography</span>
+                        <span>photography</span>
+                        <span>designing</span>
+                        <span>poster designer</span>
+                        <span>research</span>
+                        <span>social network</span>
+                        <span>illustration</span>
+                </div>
+            </div>
+            <!-- <div class="section contacts">
+                <h2 class="section-title" contenteditable="true">Interests</h2>
+                <p class="contacts" contenteditable="true">Название университета</p>
+            </div> -->
 
-              <div>
-                  <h3>Tools-2</h3>
-                  <div class="tool">
-                      <img src="src/tools/2/logoFramer.svg">
-                      <img src="src/tools/2/logoWebflow.svg">
-                      <img src="src/tools/2/logoWordpress.svg">
-                      <img src="src/tools/2/logoZapìer 1.svg">
-                  </div>
-              </div>
+            <div class="section tools">
+                <h2 class="section-title" contenteditable="true">Tools</h2>
+                <div>
+                    <h3>Tools-1</h3>
+                    <div class="tool">
+                        <img src="src/tools/1/logoanalytics.svg">
+                        <img src="src/tools/1/logoCreativeCloud.svg">
+                        <img src="src/tools/1/logoFigma.svg">
+                        <img src="src/tools/1/logoMeet.svg">
+                        <img src="src/tools/1/logoMiro 1.svg">
+                        <img src="src/tools/1/logoNotion.svg">
+                    </div>
+                </div>
 
-              <div>
-                  <h3>Tools-3</h3>
-                  <div class="tool">
-                      <img src="src/tools/3/logoChatGPT 1.svg">
-                      <img src="src/tools/3/logoCopilot 1.svg">
-                      <img src="src/tools/3/logoMidjourney 1.svg">
-                  </div>
-              </div>
+                <div>
+                    <h3>Tools-2</h3>
+                    <div class="tool">
+                        <img src="src/tools/2/logoFramer.svg">
+                        <img src="src/tools/2/logoWebflow.svg">
+                        <img src="src/tools/2/logoWordpress.svg">
+                        <img src="src/tools/2/logoZapìer 1.svg">
+                    </div>
+                </div>
 
-          </div>
-          <div class="section education">
-              <h2 class="section-title" contenteditable="true">Образование</h2>
-              <div class="education-item">
-                  <h3 class="degree" contenteditable="true">Название степени</h3>
-                  <p class="university" contenteditable="true">Название университета</p>
-                  <p class="years" contenteditable="true">Годы обучения</p>
-              </div>
-              <div class="education-item">
-                  <h3 class="degree" contenteditable="true">Название степени</h3>
-                  <p class="university" contenteditable="true">Название университета</p>
-                  <p class="years" contenteditable="true">Годы обучения</p>
-              </div>
-              <div class="education-item">
-                  <h3 class="degree" contenteditable="true">Название степени</h3>
-                  <p class="university" contenteditable="true">Название университета</p>
-                  <p class="years" contenteditable="true">Годы обучения</p>
-              </div>
-          </div>
-  </div>
-  <button class="download-button">Скачать резюме</button>
-  <script src="./js/html2pdf.bundle.min.js"></script>
-    <script type="module" src="./js/main.js"></script>
-  </body>
+                <div>
+                    <h3>Tools-3</h3>
+                    <div class="tool">
+                        <img src="src/tools/3/logoChatGPT 1.svg">
+                        <img src="src/tools/3/logoCopilot 1.svg">
+                        <img src="src/tools/3/logoMidjourney 1.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section education">
+                <h2 class="section-title" contenteditable="true">Образование</h2>
+                <div class="education-item">
+                    <h3 class="degree" contenteditable="true">Название степени</h3>
+                    <p class="university" contenteditable="true">Название университета</p>
+                    <p class="years" contenteditable="true">Годы обучения</p>
+                </div>
+                <div class="education-item">
+                    <h3 class="degree" contenteditable="true">Название степени</h3>
+                    <p class="university" contenteditable="true">Название университета</p>
+                    <p class="years" contenteditable="true">Годы обучения</p>
+                </div>
+                <div class="education-item">
+                    <h3 class="degree" contenteditable="true">Название степени</h3>
+                    <p class="university" contenteditable="true">Название университета</p>
+                    <p class="years" contenteditable="true">Годы обучения</p>
+                </div>
+            </div>
+    </div>
+    <button class="download-button">Скачать резюме</button>
+    <script src="script.js"></script>
+    <script src="html2pdf.bundle.min.js"></script>
+</body>
 </html>
